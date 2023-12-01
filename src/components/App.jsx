@@ -1,5 +1,5 @@
 import Searchbar from './Searchbar';
-import css from './styles.css';
+import './styles.css';
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import ImageGallery from './ImageGallery';
