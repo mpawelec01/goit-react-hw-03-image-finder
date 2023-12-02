@@ -22,6 +22,7 @@ export const App = () => {
 
   const handleSubmit = e => {
     e.preventDefault();
+    setAPIParams({ ...apiParams, page: 1 });
     setData([]);
     const searchTerm = e.target.firstElementChild.value;
     setAPIParams({ ...apiParams, q: searchTerm });
